@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ansh_HidePrice</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Hide Price for non logged in users.</summary>
+    <description>Hide Price for non logged in users.</description>
+    <notes>Hide Price for non logged in users stable version.</notes>
+    <authors><author><name>Ansh</name><user>MagentoAnshsystem</user><email>MagentoAnshsystem@gmail.com</email></author></authors>
+    <date>2016-03-18</date>
+    <time>09:15:29</time>
+    <contents><target name="magelocal"><dir name="Ansh"><dir name="HidePrice"><dir name="Block"><file name="HelloWorld1.php~" hash="1fc68ff7b1ae8cd278179fb5de7ee413"/><file name="HidePrice.php" hash="840f5b04b4af43ed58267534f1a512b5"/></dir><dir name="Helper"><file name="Data.php" hash="aea532e941905b243a9eab532c797106"/><file name="Data.php~" hash="4f5d348d9023746ee06bb4f7387e81ef"/></dir><dir name="etc"><file name="adminhtml.xml" hash="24cf40ec5248d140c85d9d3eec3a0d6c"/><file name="config.xml" hash="c7ee262f3ffdc123c37dad0ce5cdb197"/><file name="config.xml~" hash="a765b84a303d6a33e4d4c9dbebee88cc"/><file name="system.xml" hash="617aa5e643138a48b14979f6fdbfb3d1"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ansh_HidePrice.xml" hash="c01604f8c11f2208f5f2e318ea263870"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="rwd"><dir name="default"><dir name="layout"><file name="hideprice.xml" hash="be39329da3239a6a5b3928499d919d3e"/></dir><dir name="template"><dir name="hideprice"><file name="addtocart.phtml" hash="becc50373c2a7ebb0d4ca5f694cbd2f9"/><dir name="compare"><file name="list.phtml" hash="a6f88cfa306158c7b0489c96e9742a85"/></dir><file name="helloworld.phtml~" hash="eac9ecff1edb8d101311ba68a6aa0668"/><file name="helloworld1.phtml~" hash="9384fc2dc8ebbd8f9ad261ea942b6845"/><file name="list.phtml" hash="eced54f5ec23e356417960bbd175fa3f"/><file name="price.phtml" hash="e862d96ea73652e79b62feedb0626883"/><file name="price.phtml~" hash="197e450525bcad7ba600e6f0e361fd46"/><dir name="view"><file name="addto.phtml" hash="af14a041c970ebf47173ce76d5f9e824"/><file name="addto.phtml~" hash="e9888c07df82992fa8db13e323e76c7f"/></dir><file name="view.phtml" hash="c1faf0f1df161e2ef11953ff3c3fa823"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.5.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

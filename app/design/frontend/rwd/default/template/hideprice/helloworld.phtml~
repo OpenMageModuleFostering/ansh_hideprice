@@ -1,0 +1,13 @@
+<div>
+
+<?php
+
+echo "Hello World ! I am Iyngaran Iyathurai";
+
+echo "<BR/>";
+
+echo $this->myMessage();
+
+?>
+
+</div>

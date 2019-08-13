@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+ 
+<layout version="0.1.0">
+ 
+    <default>
+        <reference name="catalog_product_price_template">
+            <action method="addPriceBlockType">
+                <type>simple</type>
+                <block>catalog/product_price</block>
+                <template>hideprice/price.phtml</template>
+            </action>
+            <action method="addPriceBlockType">
+                <type>grouped</type>
+                <block>catalog/product_price</block>
+                <template>hideprice/price.phtml</template>
+            </action>
+            <action method="addPriceBlockType">
+                <type>configurable</type>
+                <block>catalog/product_price</block>
+                <template>hideprice/price.phtml</template>
+            </action>
+            <action method="addPriceBlockType">
+                <type>virtual</type>
+                <block>catalog/product_price</block>
+                <template>hideprice/price.phtml</template>
+            </action>
+            <action method="addPriceBlockType">
+                <type>bundled</type>
+                <block>catalog/product_price</block>
+                <template>hideprice/price.phtml</template>
+            </action>
+        </reference>
+    </default>
+ 
+    <!-- For default -->
+    <catalog_category_default>
+        <reference name="product_list">
+            <action method="setTemplate">
+                <template>hideprice/list.phtml</template>
+            </action>
+        </reference>
+    </catalog_category_default>
+    
+    <!-- For layered navigation-->
+    <catalog_category_layered>
+        <reference name="product_list">
+            <action method="setTemplate">
+                <template>hideprice/list.phtml</template>
+            </action>
+        </reference>
+    </catalog_category_layered>
+    
+    <catalog_product_view>
+        <reference name="product.info.addtocart">
+           <action method="setTemplate"><template>hideprice/addtocart.phtml</template></action>
+       </reference>
+       <reference name="product.info.addto">
+            <action method="setTemplate"><template>hideprice/view/addto.phtml</template></action>
+        </reference>
+    </catalog_product_view>
+    
+    <catalog_product_compare_index>
+        <reference name="catalog.compare.list">
+            <action method="setTemplate"><template>hideprice/compare/list.phtml</template></action>
+        </reference>
+    </catalog_product_compare_index>
+    
+</layout>

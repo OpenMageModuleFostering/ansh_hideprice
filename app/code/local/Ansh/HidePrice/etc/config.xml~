@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <modules>
+                <ansh_helloworld1>
+                        <version>0.1.0</version>
+                </ansh_helloworld1>
+        </modules>
+    <blocks>
+            <helloworld1>
+                <rewrite>
+         <helloworld1>Ansh_HelloWorld1_Block_HelloWorld1</helloworld1>
+        </rewrite>
+            </helloworld1>
+     </blocks>
+ 
+        </global>
+       <frontend>
+                <routers>
+                        <helloworld1>
+                                <use>standard</use>
+                                <args>
+                                      <module>Ansh_HelloWorld1</module>
+                                      <frontName>helloworld1</frontName>
+                                </args>
+                        </helloworld1>
+                </routers>
+        <layout>
+            <updates>
+                <helloworld1>
+                      <file>helloworld1.xml</file>
+                </helloworld1>
+            </updates>
+            </layout>
+        </frontend>
+</config>

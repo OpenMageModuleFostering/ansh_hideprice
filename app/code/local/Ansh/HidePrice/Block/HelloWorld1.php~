@@ -1,0 +1,5 @@
+<?php
+class Ansh_HelloWorld1_Block_HelloWorld1 extends Mage_Core_Block_Template
+{
+  // necessary methods
+}

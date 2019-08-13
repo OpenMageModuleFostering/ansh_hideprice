@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+            <ansh_hideprice>
+                <version>0.1.0</version>
+            </ansh_hideprice>
+    </modules>
+    <global>
+        <!-- start of block -->
+        <blocks>
+            <hideprice>
+                <rewrite>
+                    <hideprice>Ansh_HidePrice_Block_HidePrice</hideprice>
+                </rewrite>
+            </hideprice>
+        </blocks>
+        <!-- end of block -->
+        
+        <!-- start of helper -->
+        <helpers>
+            <hideprice>
+                <class>Ansh_HidePrice_Helper</class>
+            </hideprice>
+        </helpers>
+        <!-- end of helper -->
+    </global>
+    <frontend>        
+        <layout>
+            <updates>
+                <hideprice>
+                    <file>hideprice.xml</file>
+                </hideprice>
+            </updates>
+        </layout>
+    </frontend>             
+</config>
