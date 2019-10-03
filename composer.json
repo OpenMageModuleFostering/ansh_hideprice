@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Ansh_HidePrice",
+    "name": "OpenMageModuleFostering\/Ansh_HidePrice",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Hide Price for non logged in users.",
     "authors": [
-    {
-        "name": "Ansh",
-        "email": "MagentoAnshsystem@gmail.com"
-    }
-],
+        {
+            "name": "Ansh",
+            "email": "MagentoAnshsystem@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
